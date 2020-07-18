@@ -8,6 +8,10 @@
 
 > Short introduction, this is very simple internet checker, you can execute a function when the device disconnected and otherwise, you can check is connected to the internet for once on execution.
 
+## Demo
+
+<img src="internet-checker.gif" width="250">
+
 ## Simple Usage
 
 1. Forever Checking

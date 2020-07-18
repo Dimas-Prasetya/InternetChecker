@@ -25,7 +25,7 @@ class NetworkConnection constructor(private val context: Context) {
     private lateinit var networkCallback: ConnectivityManager.NetworkCallback
 
     // forever check
-    inner class ObservableNetworkCondition(): LiveData<Boolean>() {
+    inner class ObservableNetworkCondition: LiveData<Boolean>() {
 
         override fun onActive() {
             super.onActive()
